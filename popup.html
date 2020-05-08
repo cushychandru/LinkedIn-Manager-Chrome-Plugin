@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Set Page Color Popup</title>
+    <style>
+    body {
+      overflow: hidden;
+      margin: 0px;
+      padding: 0px;
+      background: white;
+    }
+
+    div:first-child {
+      margin-top: 0px;
+    }
+
+    div {
+      cursor: pointer;
+      text-align: center;
+      padding: 1px 3px;
+      font-family: sans-serif;
+      font-size: 0.8em;
+      width: 100px;
+      margin-top: 1px;
+      background: #cccccc;
+    }
+    div:hover {
+      background: #aaaaaa;
+    }
+    #connect {
+      border: 1px solid red;
+      color: red;
+    }
+    #company {
+      border: 1px solid blue;
+      color: blue;
+    }
+    #hashtag {
+      border: 1px solid green;
+      color: green;
+    }
+    
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="connect">Connect All People</div>
+    <div id="company">Follow All Companies</div>
+    <div id="hashtag">Follow All Hashtags</div>
+  </body>
+</html>
